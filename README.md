@@ -1,4 +1,9 @@
-# odin-recipes
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Read Me</title>
+</head>
+<body>
 <h1 align="center">My First Project</h1>
 <h2 align="center"><em>Odin recipes</em></h2>
 <h3 align="center">Intro</h3>
@@ -8,3 +13,4 @@ beginning to end. So far, I only have experience with html, so this page
 will likely be pretty basic. Stay tuned for a reflections section at the end
 sharing my experience. </p>
 <h3 align="center">Reflection</h3>
+</body>
