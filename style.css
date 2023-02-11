@@ -5,8 +5,21 @@ h1 {
     text-align:center
 
 }
+
+a:link {
+    color:rgb(250, 215, 242)
+}
+
+a:visited {
+    color:rgb(244, 142, 220)
+}
+
+a:hover {
+    color:rgb(184, 29, 29)
+}
+
 * {
-    background-color:black
+    background-color:rgb(10, 7, 42)
 }
 
 li {
