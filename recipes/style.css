@@ -33,6 +33,12 @@ h2 {
    margin-right:250px;
 }
 
+.links {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+
 p {
     color:white;
     font-size: 18px;
@@ -44,6 +50,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+a:link {
+    color:rgb(250, 215, 242)
+}
 
+a:visited {
+    color:rgb(244, 142, 220)
+}
+
+a:hover {
+    color:rgb(184, 29, 29)
 }
