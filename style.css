@@ -11,7 +11,7 @@ a:link {
 }
 
 a:visited {
-    color:rgb(244, 142, 220)
+    color:rgb(250, 215, 242)
 }
 
 a:hover {
@@ -26,8 +26,12 @@ li {
     color:rgb(250, 215, 242);
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 450px;
+    margin-left: auto;
     margin-right:auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    
 }
 
 img {
@@ -37,6 +41,9 @@ img {
     margin-right: auto;
     padding: 0;
     border: 5px rgb(250, 215, 242) solid
+}
 
-
+.container {
+    border: 5px rgb(250, 215, 242) solid;
+    display: flex;
 }
