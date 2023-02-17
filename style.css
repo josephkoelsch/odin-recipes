@@ -26,12 +26,8 @@ li {
     color:rgb(250, 215, 242);
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: auto;
-    margin-right:auto;
     margin-top: 25px;
     margin-bottom: 25px;
-
-    
 }
 
 img {
@@ -44,6 +40,12 @@ img {
 }
 
 .container {
+    flex: auto;
     border: 5px rgb(250, 215, 242) solid;
     display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+    
 }

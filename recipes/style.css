@@ -14,29 +14,42 @@ h2 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.container {
+    display: flex;
+    flex: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
 .ingredients {
+    display: flex;
+    flex-direction:column;
+    flex: auto;
     color:white;
     font-size: 18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align:left;
-    margin-left:460px;
-    margin-right: auto;
-
+    align-items: left
 }
 
 .directions {
+   display: flex;
+   flex: auto;
+   flex-direction: column;
     color:white;
     font-size: 18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:left;
-   margin-left:250px;
-   margin-right:250px;
+   
 }
 
 .links {
     font-size: 18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align:center;
+    flex: auto;
+    border: 5px rgb(250, 215, 242) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
 }
 
 p {
