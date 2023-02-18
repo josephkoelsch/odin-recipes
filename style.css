@@ -3,7 +3,12 @@ h1 {
     font-size: 36px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:center
+}
 
+p {
+    color:rgb(250, 215, 242);
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a:link {
@@ -47,5 +52,22 @@ img {
     justify-content: space-around
 }
 
-    
+.nav-bar {
+    flex:auto;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    list-style-type:none;
+}
+
+#about {
+    background-color:rgb(10, 7, 42);
+    padding: 10px;
+    font-size: 18px;
+}
+
+#contact {
+    background-color:rgb(10, 17, 42);
+    padding: 10px;
+    font-size: 18px;
 }
